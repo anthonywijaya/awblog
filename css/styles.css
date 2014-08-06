@@ -116,7 +116,7 @@ p{
     margin-bottom: 40px;
   }
 
-  p{
+  p{  
     font-size: 24px;
     margin-bottom: 28px;
   }
@@ -140,6 +140,10 @@ html {
 img.responsive{
 	width:100%;
   margin-bottom: 28px;
+}
+
+img.welcome{
+  max-width: 180px;
 }
 
 nav.navbar.navbar-default{
@@ -170,14 +174,19 @@ a.page-link{
 	font-family:"Roboto", helvetica, sans-serif;
 	text-transform: uppercase;
 	font-size:14px;
+  font-weight: 700;
 }
 
 a.btn-newsletter__signup{
 	/*background-color: #ef7c54 orange - Site's theme color & main accent*/
-	
+	color: #c55c39;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size:14px;
+}
+
+a.btn-newsletter__signup:hover{
+  color:#994123;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -195,6 +204,21 @@ a.btn-newsletter__signup{
 
 
 
-p.call-to-action__text{
-	font-weight: 700;
+
+footer.site-footer{
+  color: #fff;
+  background-color: #ef7c54;
+}
+
+
+footer.site-footer h2{
+  font-size: 16px;
+}
+
+footer.site-footer ul{
+  list-style: none;
+}
+
+li.footer__link>a{
+  color:#fff;
 }
