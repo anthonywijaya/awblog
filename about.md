@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-<h1 class="page-title" itemprop="headline">About</h1>
+<h1 class="page-title">About</h1>
 
 <div itemscope itemtype="http://schema.org/Person">
-	<meta itemprop = "author" content="Anthony Wijaya">
 	<meta itemprop ="description" content="Anthony Wijaya is a Web Developer, Digital Problem Solver & Self-Proclaimed Tech Aficionado">
 	<meta itemprop ="birthDate" content="1995-02-20">
 

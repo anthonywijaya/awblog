@@ -26,13 +26,17 @@
             <i class="icomatic">linkedin</i>
           </a>
         </li>{% endif %}
+        {% if site.googleplus_username %}<li class="footer__link">
+          <a href="https://plus.google.com/{{ site.googleplus_username }}?rel=author">
+            <i class="icomatic">googleplus</i>
+          </a>
+        </li>{% endif %}
       </ul>
     </div>
 
     <div style="text-align:center;">
-      <p class="copyright"> All Rights Reserved. © 2014 {{ site.description }}</p>
+      <p class="copyright"> All Rights Reserved. © 2014</p>
     </div>
-    {{site.description}}
 
   </div>
 
