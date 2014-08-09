@@ -1,4 +1,4 @@
-<header class="site-header">
+<header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
 
@@ -12,7 +12,7 @@
           <span class="icon-bar"></span>
           
         </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img class="logo" src="{{"/assets/img/logo.png" | prepend:site.baseurl}}"></a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img class="logo" title="{{site.title}}" itemscope itemtype="https://schema.org/Brand" itemprop="logo" src="{{"/assets/img/logo.png" | prepend:site.baseurl}}"></a>
       </div>
 
       <div class="collapse navbar-collapse" id="target-navbar">

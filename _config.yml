@@ -1,9 +1,11 @@
 # Site settings
 title: anthonywijaya.com - Web Developer, Digital Problem Solver & Self-Proclaimed Tech Aficionado
 email: anthony@anthonywijaya.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: ""
 baseurl: ""
 url: "http://anthonywijaya.com"
+author: Anthony Wijaya
+
 twitter_username: awjya
 facebook_username: awjya
 github_username:  anthonywijaya

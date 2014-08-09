@@ -3,3 +3,21 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
+<h1 class="page-title">Articles Archive</h1>
+
+
+<ul class="blog-posts">
+  {% for post in site.posts %}
+    <li>
+	    <article class = "blog-post" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+	      <h2 itemprop="headline"><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h2>
+	      <div class="meta-byline">
+	      	<span class="post-date">{{ post.date | date: "%b %-d, %Y "}}</span>
+	  	  </div>
+	  	  <div class="post-content" itemprop="text">
+	      	{{ post.excerpt }}
+	  	  </div>
+	    </article>
+    </li>
+  {% endfor %}
+</ul>
