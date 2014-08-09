@@ -1,11 +1,10 @@
 # Site settings
 title: anthonywijaya.com - Web Developer, Digital Problem Solver & Self-Proclaimed Tech Aficionado
 email: anthony@anthonywijaya.com
-description: ""
+description: "Anthony Wijaya is a Web Developer, Digital Problem Solver & Self-Proclaimed Tech Aficionado. anthonywijaya.com is Anthony's personal website which contains the work he is doing and his best advice on the things he've learned for the web."
 baseurl: ""
 url: "http://anthonywijaya.com"
 author: Anthony Wijaya
-
 twitter_username: awjya
 facebook_username: awjya
 github_username:  anthonywijaya

@@ -2,6 +2,7 @@
 layout: post
 title: "Testing Octopress"
 date: 2014-08-03T13:21:58+07:00
+author: Anthony Wijaya
 ---
 
 This is a test for octopress.

@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
+author: Anthony Wijaya
 ---
 <h1 class="page-title">Articles Archive</h1>
 
@@ -12,7 +13,7 @@ permalink: /blog/
 	    <article class = "blog-post" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 	      <h2 itemprop="headline"><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h2>
 	      <div class="meta-byline">
-	      	<span class="post-date">{{ post.date | date: "%b %-d, %Y "}}</span>
+	      	<span class="post-date">{{ post.date | date: "%b %-d, %Y "}}</span> / <span itemprop="author">{{post.author}}</span>
 	  	  </div>
 	  	  <div class="post-content" itemprop="text">
 	      	{{ post.excerpt }}

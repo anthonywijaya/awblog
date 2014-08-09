@@ -10,7 +10,7 @@ permalink: /about/
 	<meta itemprop ="description" content="Anthony Wijaya is a Web Developer, Digital Problem Solver & Self-Proclaimed Tech Aficionado">
 	<meta itemprop ="birthDate" content="1995-02-20">
 
-<p>My name is Anthony Wijaya. I currently live in Jakarta, <span itemprop="nationality">Indonesia</span>, and am undergoing undergraduate school at Binus International in Jakarta.</p>
+<p>My name is <span itemprop="name">Anthony Wijaya</span>. I currently live in Jakarta, <span itemprop="nationality">Indonesia</span>, and am undergoing undergraduate school at Binus International in Jakarta.</p>
 
 <p>I'm a <span itemprop="jobTitle">student</span> majoring in Computer Science and I'm currently building things with code, focusing on the web as my trade.</p>
 
