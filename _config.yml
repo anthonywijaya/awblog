@@ -17,3 +17,5 @@ markdown: kramdown
 input: GFM
 permalink: "blog/:title"
 highlighter: rouge
+
+# Sitemap Generator Plugin Config
