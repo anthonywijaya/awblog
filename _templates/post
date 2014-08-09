@@ -2,5 +2,5 @@
 layout: {{ layout }}
 title: {{ title }}
 date: {{ date }}
-author: {{ author }}
+author: Anthony Wijaya
 ---
